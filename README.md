@@ -3,7 +3,7 @@
 The main goal of this challenge is to get a general idea of your knowledge and how you face a solution based on SwiftUI.
 For that we would like you to complete a small app that allows the user to see a list of "items" by two different ways, by a new screen and by an overlay view.
 
-1. Clone the project, it will work as a template to start the challenge.
+1. Fork the project, it will work as a template to start the challenge.
 2. You can find an existint entry point for the "Challenge app", composed by ContentView and a ViewModel. 
     - ContenView -> It has already two bottoms. The idea is to use them in order to show the information. 
     - ViewModel -> It provides the data you need to show, but feel free to use it if you need it for any other purpose. There, you can also find the models you need to use, but you can make any change that fits for your solution.
