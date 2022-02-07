@@ -1,21 +1,22 @@
-//
-//  ContentView.swift
-//  SwiftUI_Challenge
-//
-//  Created by Hector Molla on 7/2/22.
-//
 
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    private let viewModel: ViewModel = ViewModel()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        VStack {
+            Button(action: {
+                //TODO: Open a sheet and show the info provided by the viewModel
+            }, label: {
+                Text("Open sheet")
+            })
+            Spacer().frame(height: 20)
+            Button(action: {
+                //TODO: Navigate to a new screen and show the info provided by the viewModel
+            }, label: {
+                Text("Navigate to view")
+            })
+        }
     }
 }

@@ -14,6 +14,7 @@
 		067131FC27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067131FB27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift */; };
 		0671320627B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671320527B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift */; };
 		0671320827B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671320727B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift */; };
+		0671321527B15D0B003BDCF8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671321427B15D0B003BDCF8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0671320127B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0671320527B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ChallengeUITests.swift; sourceTree = "<group>"; };
 		0671320727B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0671321427B15D0B003BDCF8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				067131EC27B15CCB003BDCF8 /* ContentView.swift */,
 				067131EE27B15CCC003BDCF8 /* Assets.xcassets */,
 				067131F027B15CCC003BDCF8 /* Preview Content */,
+				0671321427B15D0B003BDCF8 /* ViewModel.swift */,
 			);
 			path = SwiftUI_Challenge;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				067131ED27B15CCB003BDCF8 /* ContentView.swift in Sources */,
+				0671321527B15D0B003BDCF8 /* ViewModel.swift in Sources */,
 				067131EB27B15CCB003BDCF8 /* SwiftUI_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
