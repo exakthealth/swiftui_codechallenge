@@ -11,9 +11,6 @@
 		067131ED27B15CCB003BDCF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067131EC27B15CCB003BDCF8 /* ContentView.swift */; };
 		067131EF27B15CCC003BDCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067131EE27B15CCC003BDCF8 /* Assets.xcassets */; };
 		067131F227B15CCC003BDCF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067131F127B15CCC003BDCF8 /* Preview Assets.xcassets */; };
-		067131FC27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067131FB27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift */; };
-		0671320627B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671320527B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift */; };
-		0671320827B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671320727B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift */; };
 		0671321527B15D0B003BDCF8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671321427B15D0B003BDCF8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +38,7 @@
 		067131EE27B15CCC003BDCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067131F127B15CCC003BDCF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		067131F727B15CCC003BDCF8 /* SwiftUI_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		067131FB27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ChallengeTests.swift; sourceTree = "<group>"; };
 		0671320127B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0671320527B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ChallengeUITests.swift; sourceTree = "<group>"; };
-		0671320727B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0671321427B15D0B003BDCF8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				067131E927B15CCB003BDCF8 /* SwiftUI_Challenge */,
-				067131FA27B15CCC003BDCF8 /* SwiftUI_ChallengeTests */,
-				0671320427B15CCC003BDCF8 /* SwiftUI_ChallengeUITests */,
 				067131E827B15CCB003BDCF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +103,6 @@
 				067131F127B15CCC003BDCF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		067131FA27B15CCC003BDCF8 /* SwiftUI_ChallengeTests */ = {
-			isa = PBXGroup;
-			children = (
-				067131FB27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift */,
-			);
-			path = SwiftUI_ChallengeTests;
-			sourceTree = "<group>";
-		};
-		0671320427B15CCC003BDCF8 /* SwiftUI_ChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0671320527B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift */,
-				0671320727B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift */,
-			);
-			path = SwiftUI_ChallengeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067131FC27B15CCC003BDCF8 /* SwiftUI_ChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0671320827B15CCC003BDCF8 /* SwiftUI_ChallengeUITestsLaunchTests.swift in Sources */,
-				0671320627B15CCC003BDCF8 /* SwiftUI_ChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
